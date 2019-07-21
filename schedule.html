@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href = "style.css" rel = "stylesheet" type = "text/css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+	<title>Schedule - KC Programming Dojo</title>
+</head>
+<body>
+	
+	<div class="pagenav" id="pageTopnav">
+			<div id="logo">
+				<a href="#">
+					<a href="index.html">
+					<img src="logoblack.png" height="35px" width="">
+						</a>
+				</a>
+			</div>
+                 <a href="schedule.html">Schedule</a> 
+                 <a href="coding.html">Coding</a> 
+                 <a href="aboutus.html">About Us</a>
+	</div>
+	<div class = "contain">
+	
+	<br><br><br>
+		
+	<center><p id = "sectiontitle">SCHEDULE</p></center>
+
+	<div id = about>
+		Schedule
+	</div><br><br>
+	<div id = about2>
+		Classes are usually held at the Central Resource Library in Overland Park, Kansas. Classes typically run for 2 hours, usually from 3-5 on Sundays. Class Timings will be updated on the calendar below, but please contact us to be placed on our mailing list for the most up-to-date changes and class times.
+		<br><br><center>
+		Central Resource Library: 9875 W 87th St, Overland Park, KS 66212
+		<br><br>
+		<a href = "aboutus.html"><button class = "home"> Contact Information </button></a></center>
+	</div>
+	
+	<br><br><br><br>
+	
+	<div id = about>
+		Calendar
+	</div><br><br>
+	
+	
+	<center><iframe src="https://calendar.google.com/calendar/embed?src=kcprogrammingdojo%40gmail.com&ctz=America%2FChicago" style="border: 0" width="50%" height="400px" frameborder="0" scrolling="no"></iframe></center> <br><br><br><br>
+		
+	<div id = "about"> Other Notes </div><br>
+		<div id= "about2"> NO CLASS on July 21st </div> <br><br><br><br><br>
+		
+	
+	
+	<script>
+		// Initialize and add the map
+		function initMap() {
+		  // The location of the library
+		  var uluru = {lat: 38.970190, lng: -94.699350};
+		  // The map, centered at the library
+		  var map = new google.maps.Map(
+			  document.getElementById('map'), {zoom: 4, center: uluru});
+		  // The marker, positioned at the library
+		  var marker = new google.maps.Marker({position: uluru, map: map});
+		}
+    </script>
+	
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+	</script>
+	
+	
+	</div></body>
+</html>
