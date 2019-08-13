@@ -2,6 +2,7 @@ body{
 	/*background-image: url("computer.jpeg");*/
 	height: 100%;
 	width: 100%;
+	padding: 0px;
 }
 
 /*.sidenav {
